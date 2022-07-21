@@ -1,7 +1,7 @@
-from typing import Union, Dict, List, Tuple
 from fastapi import FastAPI
-from pydantic import BaseModel
 from fedexrates.rates import Rate
+from pydantic import BaseModel
+
 import json
 
 
